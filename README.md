@@ -56,7 +56,23 @@ npm run dev
 
 ### Configuration
 
-Explain any configuration steps if necessary.
+## MongoDB Setup
+
+### 1. Install MongoDB
+
+Make sure you have MongoDB installed on your machine. Download and install it from the official MongoDB website: [MongoDB Download Center](https://www.mongodb.com/try/download/community)
+
+### 2. Create a MongoDB Atlas Account (Optional)
+
+If you prefer using a cloud-based solution, you can sign up for a free MongoDB Atlas account. MongoDB Atlas is a fully managed cloud database service. Follow the steps on the MongoDB Atlas website to create an account and set up a cluster: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+
+### 3. Install MongoDB Driver for Node.js
+
+In your Next.js project, you'll need a MongoDB driver to interact with the database. Install it using npm:
+
+```bash
+npm install mongodb
+```
 
 ## Technologies Used
 
